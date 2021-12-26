@@ -1,0 +1,25 @@
+{
+   "background": {
+	  "scripts": ["asset/js/popup.js"]
+   },
+   "browser_action": {
+      "default_icon": "asset/images/favicon.png",
+      "default_title": "کوتاه کننده لینک f1r",
+      "default_popup": "asset/html/popup.html",
+      "popup": "asset/html/popup.html"
+   },
+   "description": "افزونه کوتاه کننده لینک",
+   "homepage_url": "https://f1r.ir",
+   "icons": {
+      "128": "asset/images/favicon.png",
+      "48": "asset/images/favicon.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "23",
+   "name": "f1r",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "permissions": [ "webRequestBlocking", "webRequest", "webNavigation", "tabs", "management", "http://*/*", "https://*/*" ],
+   "version": "1.1.0",
+   "web_accessible_resources": [ "asset/html/popup.html", "asset/html/background.html", "asset/js/popup.js"]
+
+}
